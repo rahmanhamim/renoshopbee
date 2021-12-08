@@ -1,0 +1,33 @@
+.newsletter-leftside {
+ background: linear-gradient(#353a4de0, #353a4de7),
+  url("../../../images/bg-news.jpg");
+ background-position: center;
+ color: #fff;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding: 3em 0;
+}
+.letter-from {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.letter-from input {
+ padding: 0.2em 1em;
+}
+.btn-regular {
+ background-color: #3cb978;
+ color: white;
+ margin-left: 0.5em;
+ padding: 0.2em 0.5em;
+ border: none;
+}
+.newsletter-logos {
+ background-color: #f5f6fa;
+}
+.info-text {
+ padding-top: 1em;
+}
+.info-text-left {
+ border-right: 1px solid gray;
+}

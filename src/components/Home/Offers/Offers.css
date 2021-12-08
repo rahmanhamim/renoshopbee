@@ -1,0 +1,44 @@
+.offers-text-container {
+ background-color: #f5f6fa;
+ border-right: 2px solid #fff;
+}
+.offers-text {
+ margin: 0;
+ letter-spacing: 2px;
+ font-weight: 800;
+ font-size: 1.2rem;
+}
+.offer-card-container-1 {
+ min-height: 640px;
+ background: linear-gradient(rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.418)),
+  url("../../../images/offer-1.jpg");
+ background-size: cover;
+ object-position: center;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.offer-card-container-2 {
+ min-height: 640px;
+ background: linear-gradient(rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.418)),
+  url("../../../images/offer-2.jpg");
+ background-size: cover;
+ object-position: center;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.offer-card-container-3 {
+ min-height: 640px;
+ background: linear-gradient(rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.192)),
+  url("../../../images/offer-3.jpg");
+ background-size: cover;
+ object-position: center;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.offers-card-text {
+ color: #fff;
+ border: 2px solid white;
+ outline: 2px solid white;
+ outline-offset: 8px;
+ padding: 2em 1em;
+}

@@ -1,0 +1,13 @@
+.featured-products-section {
+ margin: 6rem 0;
+}
+.section-title {
+ text-align: center;
+}
+.section-title h2 {
+ font-weight: 800;
+}
+.section-title p {
+ font-style: italic;
+ color: #3cb978;
+}

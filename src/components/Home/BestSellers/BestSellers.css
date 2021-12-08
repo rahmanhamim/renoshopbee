@@ -1,0 +1,40 @@
+.best-seller-section {
+ margin: 7rem 0;
+}
+
+.best-seller-span {
+ color: #3cb978;
+ font-weight: 500;
+}
+
+.card-img-wrapper {
+ position: relative;
+}
+.card-img-wrapper button {
+ border: none;
+ margin: 0;
+ padding: 0;
+}
+.card-icons {
+ display: flex;
+ flex-direction: column;
+ position: absolute;
+ top: 4%;
+ left: 82%;
+ display: none;
+}
+.card-icons i {
+ background-color: #3cb978;
+ color: #fff;
+ margin: 0.5em 0;
+ padding: 0.3em 0.3em;
+ border-radius: 3px;
+ font-size: 1.2rem;
+}
+.card-img-wrapper:hover .card-icons {
+ background: transparent;
+ display: block;
+}
+.card-img-wrapper:hover .card-icons i {
+ margin: 3px;
+}
