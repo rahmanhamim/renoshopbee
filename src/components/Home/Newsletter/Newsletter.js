@@ -34,22 +34,6 @@ const Newsletter = () => {
      </div>
     </div>
    </div>
-   <div className="container info-text">
-    <div className="row">
-     <div className="col-md-7 info-text-left">
-      We're confident we've provided all the best for you. Stay connected with
-      us.
-     </div>
-     <div className="col-md-2 ms-auto d-flex align-items-center justify-content-between">
-      <i className="fab fa-facebook-f me-2"></i>
-      <i className="fab fa-twitter mx-2"></i>
-      <i className="fab fa-instagram mx-2"></i>
-      <i className="fab fa-linkedin-in mx-2"></i>
-      <i className="fab fa-behance ms-2"></i>
-     </div>
-    </div>
-   </div>
-   <hr />
   </section>
  );
 };

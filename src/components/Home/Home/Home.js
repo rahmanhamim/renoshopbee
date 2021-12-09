@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../Shared/Footer/Footer";
 import NavigationBar from "../../Shared/NavigationBar/NavigationBar";
 import Banner from "../Banner/Banner";
 import BestSellers from "../BestSellers/BestSellers";
@@ -17,6 +18,7 @@ const Home = () => {
    <Offers />
    <FeaturedProducts />
    <Newsletter />
+   <Footer></Footer>
   </>
  );
 };

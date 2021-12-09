@@ -38,3 +38,7 @@
 .card-img-wrapper:hover .card-icons i {
  margin: 3px;
 }
+.cart-card-btn {
+ text-decoration: none;
+ transition: all 400ms;
+}

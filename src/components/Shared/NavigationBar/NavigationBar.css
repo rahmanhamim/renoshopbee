@@ -23,3 +23,13 @@
  color: white;
  border-radius: 50%;
 }
+
+.navigation-links {
+ text-decoration: none;
+ margin: 0.5em;
+ color: gray;
+ transition: all 400ms;
+}
+.navigation-links:hover {
+ color: #3cb978;
+}

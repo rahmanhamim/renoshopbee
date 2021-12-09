@@ -1,0 +1,43 @@
+.btn-custom {
+ background-color: white;
+ border: 1px solid rgb(192, 192, 192);
+ margin-left: 0.5em;
+ padding: 0.2em 0.5em;
+}
+.input-field-container input {
+ border: 1px solid gray;
+ padding: 0.5em 1.5em;
+ outline: none;
+ width: 80%;
+}
+.btn-cart {
+ padding: 0.5em 1.5em;
+ border: 1px solid #3cb978;
+ color: white;
+ background-color: #3cb978;
+ width: 18%;
+}
+
+.cart-calculation {
+ margin: 5rem 0;
+}
+.select-field-container select {
+ border: 1px solid gray;
+ padding: 0.5em 1.5em;
+ outline: none;
+ width: 98%;
+ background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+  linear-gradient(135deg, gray 50%, transparent 50%),
+  linear-gradient(to right, #ccc, #ccc);
+ background-position: calc(100% - 20px) calc(1em + 2px),
+  calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+ background-size: 5px 5px, 5px 5px, 1px 1.5em;
+ background-repeat: no-repeat;
+ appearance: none;
+}
+.input-zip {
+ border: 1px solid gray;
+ padding: 0.5em 1.5em;
+ outline: none;
+ width: 98%;
+}

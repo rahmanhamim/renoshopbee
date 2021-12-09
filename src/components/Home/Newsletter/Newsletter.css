@@ -17,6 +17,7 @@
 }
 .btn-regular {
  background-color: #3cb978;
+ border: 1px solid #3cb978;
  color: white;
  margin-left: 0.5em;
  padding: 0.2em 0.5em;

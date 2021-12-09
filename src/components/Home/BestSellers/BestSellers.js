@@ -1,6 +1,7 @@
 import React from "react";
 import "./BestSellers.css";
 import demoImg from "../../../images/product-demo.jpg";
+import { Link } from "react-router-dom";
 
 const BestSellers = () => {
  return (
@@ -23,9 +24,11 @@ const BestSellers = () => {
         <div className="card-img-wrapper">
          <img src={demoImg} alt="" className="img-fluid" />
          <p className="card-icons">
-          <button>
-           <i className="fas fa-shopping-cart"></i>
-          </button>
+          <Link to="/cart" className="cart-card-btn">
+           <button>
+            <i className="fas fa-shopping-cart"></i>
+           </button>
+          </Link>
           <button>
            <i className="fas fa-heart"></i>
           </button>
@@ -35,7 +38,7 @@ const BestSellers = () => {
          </p>
         </div>
         <p className="m-0 fw-bold pt-3">Cruise Dual Analog</p>
-        <p className="m-0 fw-bold py-2">$250.00</p>
+        <p className="m-0 fw-bold py-2 span-text-primary">$250.00</p>
         <p className="m-0 fw-bold">
          <i className="fas fa-star me-1" style={{ color: "#FF9600" }}></i>
          <i className="fas fa-star me-1" style={{ color: "#FF9600" }}></i>
@@ -50,9 +53,11 @@ const BestSellers = () => {
         <div className="card-img-wrapper">
          <img src={demoImg} alt="" className="img-fluid" />
          <p className="card-icons">
-          <button>
-           <i className="fas fa-shopping-cart"></i>
-          </button>
+          <Link to="/cart" className="cart-card-btn">
+           <button>
+            <i className="fas fa-shopping-cart"></i>
+           </button>
+          </Link>
           <button>
            <i className="fas fa-heart"></i>
           </button>
@@ -62,7 +67,7 @@ const BestSellers = () => {
          </p>
         </div>
         <p className="m-0 fw-bold pt-3">Cruise Dual Analog</p>
-        <p className="m-0 fw-bold py-2">$250.00</p>
+        <p className="m-0 fw-bold py-2 span-text-primary">$250.00</p>
         <p className="m-0 fw-bold">
          <i className="fas fa-star me-1" style={{ color: "#FF9600" }}></i>
          <i className="fas fa-star me-1" style={{ color: "#FF9600" }}></i>
@@ -77,9 +82,11 @@ const BestSellers = () => {
         <div className="card-img-wrapper">
          <img src={demoImg} alt="" className="img-fluid" />
          <p className="card-icons">
-          <button>
-           <i className="fas fa-shopping-cart"></i>
-          </button>
+          <Link to="/cart" className="cart-card-btn">
+           <button>
+            <i className="fas fa-shopping-cart"></i>
+           </button>
+          </Link>
           <button>
            <i className="fas fa-heart"></i>
           </button>
@@ -89,7 +96,7 @@ const BestSellers = () => {
          </p>
         </div>
         <p className="m-0 fw-bold pt-3">Cruise Dual Analog</p>
-        <p className="m-0 fw-bold py-2">$250.00</p>
+        <p className="m-0 fw-bold py-2 span-text-primary">$250.00</p>
         <p className="m-0 fw-bold">
          <i className="fas fa-star me-1" style={{ color: "#FF9600" }}></i>
          <i className="fas fa-star me-1" style={{ color: "#FF9600" }}></i>
@@ -104,9 +111,11 @@ const BestSellers = () => {
         <div className="card-img-wrapper">
          <img src={demoImg} alt="" className="img-fluid" />
          <p className="card-icons">
-          <button>
-           <i className="fas fa-shopping-cart"></i>
-          </button>
+          <Link to="/cart" className="cart-card-btn">
+           <button>
+            <i className="fas fa-shopping-cart"></i>
+           </button>
+          </Link>
           <button>
            <i className="fas fa-heart"></i>
           </button>
@@ -116,7 +125,7 @@ const BestSellers = () => {
          </p>
         </div>
         <p className="m-0 fw-bold pt-3">Cruise Dual Analog</p>
-        <p className="m-0 fw-bold py-2">$250.00</p>
+        <p className="m-0 fw-bold py-2 span-text-primary">$250.00</p>
         <p className="m-0 fw-bold">
          <i className="fas fa-star me-1" style={{ color: "#FF9600" }}></i>
          <i className="fas fa-star me-1" style={{ color: "#FF9600" }}></i>
