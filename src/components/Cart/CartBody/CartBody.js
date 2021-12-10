@@ -15,7 +15,7 @@ const CartBody = () => {
  return (
   <section className="container my-5">
    <div>
-    <Link to="/" className="navigation-links">
+    <Link to="/" className="navigation-links ms-0">
      Home <i className="fas fa-angle-double-right"></i>
     </Link>
     <Link to="/cart" className="navigation-links">
@@ -144,7 +144,9 @@ const CartBody = () => {
       </div>
 
       <div className="d-flex justify-content-end">
-       <button className="btn-regular mt-3 py-2">PROCEED CHECKOUT</button>
+       <Link to="/checkout">
+        <button className="btn-regular mt-3 py-2">PROCEED CHECKOUT</button>
+       </Link>
       </div>
      </div>
     </div>

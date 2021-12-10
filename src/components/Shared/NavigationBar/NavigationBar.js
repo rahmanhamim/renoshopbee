@@ -8,9 +8,9 @@ const NavigationBar = () => {
   <div>
    <Navbar expand="lg">
     <Container>
-     <Navbar.Brand href="#home" className="fw-bold">
+     <Link to="/" className="text-decoration-none fw-bold text-dark fs-5">
       <span className="logo-color">REENOSHOP</span>BEE
-     </Navbar.Brand>
+     </Link>
      <Navbar.Toggle aria-controls="basic-navbar-nav" />
      <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mx-auto nav-link-custom">

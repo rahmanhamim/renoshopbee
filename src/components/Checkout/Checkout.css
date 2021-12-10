@@ -1,0 +1,21 @@
+.input-name {
+ width: 100%;
+}
+.input-name input {
+ width: 96%;
+ border-radius: 0px;
+ border: 1px solid gray;
+ outline: none;
+ padding: 0.5em 1.5em;
+}
+.text-input-checkout {
+ margin-top: 1em;
+ width: 100%;
+}
+.text-input-checkout input {
+ width: 98%;
+ border-radius: 0px;
+ border: 1px solid gray;
+ outline: none;
+ padding: 0.5em 1.5em;
+}
