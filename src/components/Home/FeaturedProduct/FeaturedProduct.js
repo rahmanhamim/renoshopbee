@@ -14,12 +14,16 @@ const FeaturedProduct = ({ product }) => {
        <i className="fas fa-shopping-cart"></i>
       </button>
      </Link>
-     <button>
-      <i className="fas fa-heart"></i>
-     </button>
-     <button>
-      <i className="fas fa-random"></i>
-     </button>
+     <Link to="/wishlist" className="cart-card-btn">
+      <button>
+       <i className="fas fa-heart"></i>
+      </button>
+     </Link>
+     <Link to="/comparison" className="cart-card-btn">
+      <button>
+       <i className="fas fa-random"></i>
+      </button>
+     </Link>
     </p>
     <Card.Body>
      <Card.Title>{product.name}</Card.Title>

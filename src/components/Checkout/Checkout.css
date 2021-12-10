@@ -1,3 +1,7 @@
+.checkout-section {
+ margin-bottom: 7em;
+}
+
 .input-name {
  width: 100%;
 }
@@ -18,4 +22,11 @@
  border: 1px solid gray;
  outline: none;
  padding: 0.5em 1.5em;
+}
+.bank-text {
+ background-color: rgb(238, 238, 238);
+}
+.submit-place-order {
+ display: flex;
+ justify-content: end;
 }

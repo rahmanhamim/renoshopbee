@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const NavigationBar = () => {
  return (
   <div>
-   <Navbar expand="lg">
+   <Navbar expand="lg" className="nav-shadow">
     <Container>
      <Link to="/" className="text-decoration-none fw-bold text-dark fs-5">
       <span className="logo-color">REENOSHOP</span>BEE

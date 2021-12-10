@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/Home/Home/Home";
 import Cart from "./components/Cart/Cart/Cart";
 import Checkout from "./components/Checkout/Checkout";
+import Wishlist from "./components/Wishlist/Wishlist";
+import Comparison from "./components/Comparison/Comparison";
 
 function App() {
  return (
@@ -17,6 +19,12 @@ function App() {
     </Route>
     <Route exact path="/checkout">
      <Checkout />
+    </Route>
+    <Route exact path="/wishlist">
+     <Wishlist />
+    </Route>
+    <Route exact path="/comparison">
+     <Comparison />
     </Route>
    </Switch>
   </Router>

@@ -29,12 +29,16 @@ const BestSellers = () => {
             <i className="fas fa-shopping-cart"></i>
            </button>
           </Link>
-          <button>
-           <i className="fas fa-heart"></i>
-          </button>
-          <button>
-           <i className="fas fa-random"></i>
-          </button>
+          <Link to="/wishlist" className="cart-card-btn">
+           <button>
+            <i className="fas fa-heart"></i>
+           </button>
+          </Link>
+          <Link to="/comparison" className="cart-card-btn">
+           <button>
+            <i className="fas fa-random"></i>
+           </button>
+          </Link>
          </p>
         </div>
         <p className="m-0 fw-bold pt-3">Cruise Dual Analog</p>
@@ -58,12 +62,16 @@ const BestSellers = () => {
             <i className="fas fa-shopping-cart"></i>
            </button>
           </Link>
-          <button>
-           <i className="fas fa-heart"></i>
-          </button>
-          <button>
-           <i className="fas fa-random"></i>
-          </button>
+          <Link to="/wishlist" className="cart-card-btn">
+           <button>
+            <i className="fas fa-heart"></i>
+           </button>
+          </Link>
+          <Link to="/comparison" className="cart-card-btn">
+           <button>
+            <i className="fas fa-random"></i>
+           </button>
+          </Link>
          </p>
         </div>
         <p className="m-0 fw-bold pt-3">Cruise Dual Analog</p>
@@ -87,12 +95,16 @@ const BestSellers = () => {
             <i className="fas fa-shopping-cart"></i>
            </button>
           </Link>
-          <button>
-           <i className="fas fa-heart"></i>
-          </button>
-          <button>
-           <i className="fas fa-random"></i>
-          </button>
+          <Link to="/wishlist" className="cart-card-btn">
+           <button>
+            <i className="fas fa-heart"></i>
+           </button>
+          </Link>
+          <Link to="/comparison" className="cart-card-btn">
+           <button>
+            <i className="fas fa-random"></i>
+           </button>
+          </Link>
          </p>
         </div>
         <p className="m-0 fw-bold pt-3">Cruise Dual Analog</p>
@@ -116,12 +128,16 @@ const BestSellers = () => {
             <i className="fas fa-shopping-cart"></i>
            </button>
           </Link>
-          <button>
-           <i className="fas fa-heart"></i>
-          </button>
-          <button>
-           <i className="fas fa-random"></i>
-          </button>
+          <Link to="/wishlist" className="cart-card-btn">
+           <button>
+            <i className="fas fa-heart"></i>
+           </button>
+          </Link>
+          <Link to="/comparison" className="cart-card-btn">
+           <button>
+            <i className="fas fa-random"></i>
+           </button>
+          </Link>
          </p>
         </div>
         <p className="m-0 fw-bold pt-3">Cruise Dual Analog</p>

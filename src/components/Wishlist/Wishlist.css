@@ -1,0 +1,28 @@
+.wishlist-section {
+ min-height: 50vh;
+}
+.wishlist-btn {
+ margin-top: 30px;
+ margin-left: auto;
+ margin-right: auto;
+ display: flex;
+}
+.btn-addtocart {
+ background-color: #dadada;
+ color: black;
+ margin-left: 0.5em;
+ padding: 0.2em 0.5em;
+ border: none;
+ transition: all 400ms;
+}
+.btn-addtocart:hover {
+ background-color: #3cb978;
+ color: #fff;
+}
+.wishlist-x-btn {
+ margin-top: 35px;
+ border: none;
+ background-color: white;
+ font-weight: bolder;
+ font-size: large;
+}

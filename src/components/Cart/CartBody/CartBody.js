@@ -50,7 +50,9 @@ const CartBody = () => {
       <tr>
        <td className="text-end" colspan="6">
         <button className="btn-custom">Update Cart</button>
-        <button className="btn-regular me-4">Continue Shopping</button>
+        <Link to="/checkout">
+         <button className="btn-regular me-4">Continue Shopping</button>
+        </Link>
        </td>
       </tr>
      </tfoot>

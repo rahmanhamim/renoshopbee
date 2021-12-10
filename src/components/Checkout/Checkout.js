@@ -6,11 +6,16 @@ import NavigationBar from "../Shared/NavigationBar/NavigationBar";
 import "./Checkout.css";
 
 const Checkout = () => {
+ function handleSubmit(e) {
+  e.preventDefault();
+  alert("Site is under construction");
+ }
+
  return (
   <>
    <TopLinkBar />
    <NavigationBar />
-   <section className="checkout-section container my-5">
+   <section className="checkout-section container mt-5">
     <div>
      <Link to="/" className="navigation-links ms-0">
       Home <i className="fas fa-angle-double-right"></i>
@@ -27,7 +32,7 @@ const Checkout = () => {
     </div>
     <div className="billing-section my-5">
      <h5>BILLING DETAILS</h5>
-     <form action="">
+     <form onSubmit={handleSubmit}>
       <div className="row">
        <div className="col-md-7">
         <div className="d-flex justify-content-between">
@@ -106,26 +111,73 @@ const Checkout = () => {
         </p>
        </div>
 
-       {/* right side */}
-       <div className="col-md-5 border border-dark py-4 px-5">
-        <h5>YOUR ORDER</h5>
-        <div className="d-flex justify-content-between">
-         <p className="mb-0 mt-4">Product</p>
-         <p className="mb-0 mt-4">Total</p>
-        </div>
-        <hr />
-        <div>
-         <div className="d-flex justify-content-between">
-          <p className="mb-0 mt-4">Casual men wearing cool shoe x 1</p>
-          <p className="mb-0 mt-4">$ 120</p>
+       {/* right side starts here */}
+       <div className="col-md-5 border border-dark">
+        <div className="row">
+         <div className="col-12  py-4 px-5">
+          <h5>YOUR ORDER</h5>
+          <div className="d-flex justify-content-between">
+           <p className="mb-0 mt-4">Product</p>
+           <p className="mb-0 mt-4">Total</p>
+          </div>
+          <hr />
+          <div>
+           <div className="d-flex justify-content-between">
+            <p className="mb-0 mt-4">Casual men wearing cool shoe x 1</p>
+            <p className="mb-0 mt-4">$ 120</p>
+           </div>
+           <div className="d-flex justify-content-between">
+            <p className="mb-0 mt-4">Casual men wearing cool shoe x 1</p>
+            <p className="mb-0 mt-4">$ 180</p>
+           </div>
+          </div>
+          <hr />
+          <div>
+           <div className="d-flex justify-content-between">
+            <p className="mb-0 mt-4">Subtotal</p>
+            <p className="mb-0 mt-4">$ 400</p>
+           </div>
+           <div className="d-flex justify-content-between">
+            <p className="mb-0 mt-4">Shipping</p>
+            <p className="mb-0 mt-4">Free Shipping</p>
+           </div>
+          </div>
+          <hr />
+          <div>
+           <div className="d-flex justify-content-between">
+            <p className="mb-0 mt-4 fw-bold fs-4">Subtotal</p>
+            <p className="mb-0 mt-4 fw-bold fs-4">$ 400</p>
+           </div>
+          </div>
          </div>
-         <div className="d-flex justify-content-between">
-          <p className="mb-0 mt-4">Casual men wearing cool shoe x 1</p>
-          <p className="mb-0 mt-4">$ 120</p>
+         <div className="col-12 border-top border-2  py-4 px-5">
+          <p>
+           <input type="checkbox" name="bank" id="bank" className="me-3" />
+           <label htmlFor="bank">Direct Bank Transfer</label>
+          </p>
+          <p className="bank-text py-2 px-4">
+           Make your payment directly into our bank account. Please use your
+           Order ID as the payment referecne. Your order won't be shipped until
+           the funds have cleared in our account.
+          </p>
+          <p>
+           <input type="checkbox" name="cheque" id="cheque" className="me-3" />
+           <label htmlFor="cheque">Cheque Payment</label>
+          </p>
+          <p>
+           <input type="checkbox" name="paypal" id="paypal" className="me-3" />
+           <label htmlFor="paypal">PayPal</label>
+          </p>
          </div>
         </div>
-        <hr />
        </div>
+       <p className="submit-place-order">
+        <input
+         type="submit"
+         value="Place Order"
+         className="btn-regular mt-2 py-2 px-4"
+        />
+       </p>
       </div>
      </form>
     </div>

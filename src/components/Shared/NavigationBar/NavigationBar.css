@@ -33,3 +33,6 @@
 .navigation-links:hover {
  color: #3cb978;
 }
+.nav-shadow {
+ box-shadow: 1px 1px 5px rgba(102, 102, 102, 0.192);
+}
