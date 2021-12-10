@@ -4,9 +4,10 @@ import "./Banner.css";
 const Banner = () => {
  return (
   <section className="banner-section d-flex align-items-center">
-   <div className="text-light container">
+   <div className="container">
     <h1>
-     THE BEST <br /> <span className="banner-text">WOOCOMMERCE</span>
+     <span className="text-muted">THE BEST</span> <br />{" "}
+     <span className="banner-text">WOOCOMMERCE</span>
     </h1>
     <p>
      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores{" "}

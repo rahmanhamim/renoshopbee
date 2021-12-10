@@ -1,14 +1,14 @@
 .banner-section {
- background: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.205)),
-  url("../../../images/home-banner-1.jpg");
+ background: linear-gradient(rgba(0, 0, 0, 0.041), rgba(0, 0, 0, 0.068)),
+  url("../../../images/home-banner-11.jpg");
  min-height: 60vh;
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
 }
 .banner-text {
- color: #33a369;
- text-shadow: 1px 1px 1px black;
+ color: #35b777;
+ text-shadow: 1px 1px 1px rgba(32, 32, 32, 0.39);
 }
 .btn-buy {
  background-color: #33a369;
@@ -20,6 +20,6 @@
  transition: all 400ms;
 }
 .btn-buy:hover {
- background-color: #288354;
+ background-color: #35b777;
  transform: translate3d(4px, 6px, 15px);
 }
