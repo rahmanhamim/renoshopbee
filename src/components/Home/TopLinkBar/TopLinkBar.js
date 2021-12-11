@@ -3,7 +3,7 @@ import "./TopLinkBar.css";
 
 const TopLinkBar = () => {
  return (
-  <div className="bg-dark container-fluid">
+  <div className="bg-dark container-fluid d-none d-md-block">
    <div className="container">
     <div className="text-light">
      <div className="row">

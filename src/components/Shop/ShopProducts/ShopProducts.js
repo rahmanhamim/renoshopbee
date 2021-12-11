@@ -1,13 +1,12 @@
 import React from "react";
 import { Card, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "./FeaturedProduct.css";
 
-const FeaturedProduct = ({ product }) => {
+const ShopProducts = ({ pd }) => {
  return (
   <Col>
-   <Card className="h-100 feature-card-img-wrapper" data-aos="fade">
-    <Card.Img variant="top" src={product.img} />
+   <Card className="h-100 feature-card-img-wrapper ">
+    <Card.Img variant="top" src={pd.img} />
     <p className="feature-card-icons">
      <Link to="/cart" className="cart-card-btn">
       <button>
@@ -26,9 +25,9 @@ const FeaturedProduct = ({ product }) => {
      </Link>
     </p>
     <Card.Body>
-     <Card.Title>{product.name}</Card.Title>
+     <Card.Title>{pd.name}</Card.Title>
      <Card.Text>
-      <span className="span-text-primary fw-bold">$ {product.price}</span>
+      <span className="span-text-primary fw-bold">$ {pd.price}</span>
      </Card.Text>
      <p className="m-0" style={{ color: "#FF9600" }}>
       <i className="fas fa-star"></i>
@@ -43,4 +42,4 @@ const FeaturedProduct = ({ product }) => {
  );
 };
 
-export default FeaturedProduct;
+export default ShopProducts;

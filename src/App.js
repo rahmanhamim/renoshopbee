@@ -6,9 +6,16 @@ import Cart from "./components/Cart/Cart/Cart";
 import Checkout from "./components/Checkout/Checkout";
 import Wishlist from "./components/Wishlist/Wishlist";
 import Comparison from "./components/Comparison/Comparison";
-import Shop from "./components/Shop/Shop";
+import Shop from "./components/Shop/Shop/Shop";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function App() {
+ useEffect(() => {
+  Aos.init({ duration: 2000 });
+ }, []);
+
  return (
   <Router>
    <Switch>

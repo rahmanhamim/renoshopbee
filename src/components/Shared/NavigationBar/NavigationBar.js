@@ -32,6 +32,21 @@ const NavigationBar = () => {
        <Link to="/accessories" className="navigation-links">
         ACCESSORIES
        </Link>
+       <div className="d-block d-md-none">
+        <Link to="/cart" className="navigation-links m-0 ">
+         <button className="border-0 me-2 link-btn cart-btn">
+          <i className="fas fa-shopping-cart"></i>
+          <p className="cart-items-count">0</p>
+         </button>
+        </Link>
+
+        <button className="border-0 mx-2 link-btn">
+         <i className="fas fa-search"></i>
+        </button>
+        <button className="border-0 ms-2 link-btn">
+         <i className="fas fa-bars"></i>
+        </button>
+       </div>
       </Nav>
      </Navbar.Collapse>
      <div className="d-none d-md-block">

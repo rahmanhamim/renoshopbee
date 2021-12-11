@@ -19,7 +19,11 @@ const BestSellers = () => {
     </div>
     <div className="col-md-9">
      <div className="row">
-      <div className="col-md-3 d-flex justify-content-center">
+      <div
+       className="col-md-3 d-flex justify-content-center"
+       data-aos="fade"
+       data-aos-delay="200"
+      >
        <div>
         <div className="card-img-wrapper">
          <img src={demoImg} alt="" className="img-fluid" />
@@ -52,7 +56,11 @@ const BestSellers = () => {
         </p>
        </div>
       </div>
-      <div className="col-md-3 d-flex justify-content-center">
+      <div
+       className="col-md-3 d-flex justify-content-center"
+       data-aos="fade"
+       data-aos-delay="200"
+      >
        <div>
         <div className="card-img-wrapper">
          <img src={demoImg} alt="" className="img-fluid" />
@@ -85,7 +93,11 @@ const BestSellers = () => {
         </p>
        </div>
       </div>
-      <div className="col-md-3 d-flex justify-content-center">
+      <div
+       className="col-md-3 d-flex justify-content-center"
+       data-aos="fade"
+       data-aos-delay="200"
+      >
        <div>
         <div className="card-img-wrapper">
          <img src={demoImg} alt="" className="img-fluid" />
@@ -118,7 +130,11 @@ const BestSellers = () => {
         </p>
        </div>
       </div>
-      <div className="col-md-3 d-flex justify-content-center">
+      <div
+       className="col-md-3 d-flex justify-content-center"
+       data-aos="fade"
+       data-aos-delay="200"
+      >
        <div>
         <div className="card-img-wrapper">
          <img src={demoImg} alt="" className="img-fluid" />
