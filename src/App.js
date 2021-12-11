@@ -6,6 +6,7 @@ import Cart from "./components/Cart/Cart/Cart";
 import Checkout from "./components/Checkout/Checkout";
 import Wishlist from "./components/Wishlist/Wishlist";
 import Comparison from "./components/Comparison/Comparison";
+import Shop from "./components/Shop/Shop";
 
 function App() {
  return (
@@ -25,6 +26,9 @@ function App() {
     </Route>
     <Route exact path="/comparison">
      <Comparison />
+    </Route>
+    <Route exact path="/shop">
+     <Shop />
     </Route>
    </Switch>
   </Router>
