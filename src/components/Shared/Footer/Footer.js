@@ -5,6 +5,7 @@ import amexLogo from "../../../images/amex-logo.png";
 import paypalLogo from "../../../images/paypal-logo.png";
 import mastercardLogo from "../../../images/mastercard-logo.png";
 import visaLogo from "../../../images/visa-logo.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
  return (
@@ -30,71 +31,71 @@ const Footer = () => {
      <div className="col-md-3 py-4 footer-col">
       <h5>INFORMATION</h5>
       <p>
-       <a href="">Delivery Information</a>
+       <Link to="/">Delivery Information</Link>
       </p>
       <p>
-       <a href="">Discount</a>
+       <Link to="/">Discount</Link>
       </p>
       <p>
-       <a href="">Sitemap</a>
+       <Link to="/">Sitemap</Link>
       </p>
       <p>
-       <a href="">Privacy Policy</a>
+       <Link to="/">Privacy Policy</Link>
       </p>
       <p>
-       <a href="">My Account</a>
+       <Link to="/">My Account</Link>
       </p>
      </div>
      <div className="col-md-3 py-4 footer-col">
       <h5>MY ACCOUNT</h5>
       <p>
-       <a href="">Sign In</a>
+       <Link to="/">Sign In</Link>
       </p>
       <p>
-       <a href="">View Cart</a>
+       <Link to="/">View Cart</Link>
       </p>
       <p>
-       <a href="">My Wishlist</a>
+       <Link to="/">My Wishlist</Link>
       </p>
       <p>
-       <a href="">Check Out</a>
+       <Link to="/">Check Out</Link>
       </p>
       <p>
-       <a href="">Track My Order</a>
+       <Link to="/">Track My Order</Link>
       </p>
      </div>
      <div className="col-md-3 py-4 footer-col">
       <h5>HELP</h5>
       <p>
-       <a href="">F.A.Q</a>
+       <Link to="/">F.A.Q</Link>
       </p>
       <p>
-       <a href="">Shipping</a>
+       <Link to="/">Shipping</Link>
       </p>
       <p>
-       <a href="">Contact Us</a>
+       <Link to="/">Contact Us</Link>
       </p>
       <p>
-       <a href="">Privacy Policy</a>
+       <Link to="/">Privacy Policy</Link>
       </p>
      </div>
      <div className="col-md-3 py-4 footer-col">
       <h5>CONTACT INFO</h5>
       <p>
-       <a href="">
+       <Link to="/">
         <i className="fas fa-globe-americas"></i> 1234 Your Address, Country.
-       </a>
+       </Link>
       </p>
       <p>
-       <a href="">
+       <Link to="/">
         <i className="fas fa-phone-alt"></i> +1 234 567 898
-       </a>
+       </Link>
       </p>
       <p>
-       <a href="">
+       <Link to="/">
         <i className="fas fa-envelope"></i>{" "}
         <span className="span-text-primary fw-bold">mail@domain.com</span>
-       </a>
+       </Link>
       </p>
      </div>
     </div>

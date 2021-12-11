@@ -1,5 +1,4 @@
 import React from "react";
-import imagedemo from "../../../images/product-demo.jpg";
 import "./CartItems.css";
 
 const CartItems = ({ cartItem }) => {

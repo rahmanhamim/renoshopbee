@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Card, Col, Row } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import FeaturedProduct from "../FeaturedProduct/FeaturedProduct";
 import "./FeaturedProducts.css";
 

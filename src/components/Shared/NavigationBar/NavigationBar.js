@@ -17,19 +17,19 @@ const NavigationBar = () => {
        <Link to="/" className="navigation-links">
         HOME
        </Link>
-       <Link to="/womens" className="navigation-links">
+       <Link to="/" className="navigation-links">
         WOMENS
        </Link>
-       <Link to="/mens" className="navigation-links">
+       <Link to="/" className="navigation-links">
         MENS
        </Link>
-       <Link to="/kids" className="navigation-links">
+       <Link to="/" className="navigation-links">
         KIDS
        </Link>
-       <Link to="/jewellery" className="navigation-links">
+       <Link to="/" className="navigation-links">
         JEWELLERY
        </Link>
-       <Link to="/accessories" className="navigation-links">
+       <Link to="/" className="navigation-links">
         ACCESSORIES
        </Link>
        <div className="d-block d-md-none">
